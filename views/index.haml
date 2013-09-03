@@ -1,6 +1,14 @@
 %header
 %div.container
   %h1 ChipSearch
+  %div.search
+    %div.search-box
+      %input{:type => "search", :name => "q"}
+      %input{:type => "submit", :value=>"検索"}
+    %div.search-option
+      %input{:type => "checkbox", :name => "opt", :value => "stock"}
+      在庫あり
+  %div.result
 %footer
   &copy; tanitanin 2013-
 
